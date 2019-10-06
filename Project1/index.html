@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap&subset=cyrillic"
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap&subset=cyrillic"
         rel="stylesheet">
     <link rel="stylesheet" href="./CSS/font-awesome.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.11.2-web/css/all.css">
     <link rel="stylesheet" href="./CSS/style.css">
     <title>Project1</title>
 </head>
@@ -49,10 +49,18 @@
                 <p>Пикник на воздушном шаре в облаках это именно тот подарок, который поможет разделить эмоции и
                     впечатления со своими близкими людьми</p>
                 <ul>
-                    <li><img src="./img/Group 9.svg" alt="Time"> 3 часа съемки</li>
-                    <li>&nbsp;<img src="./img/camera.svg" alt="Photo">&nbsp;&nbsp;&nbsp;Более 50 фотографий</li>
-                    <li>&nbsp;<img src="./img/map-pin-marked.svg" alt="Location">&nbsp;&nbsp;&nbsp;&nbsp;Дубаи</li>
-                    <li>&nbsp;<img src="./img/speech-bubble.svg" alt="Language">&nbsp;&nbsp;&nbsp;&nbsp;Русский</li>
+                    <li><img src="./img/Group 9.svg" alt="Time">
+                        <figcaption> 3 часа сьемки</figcaption>
+                    </li>
+                    <li><img src="./img/camera.svg" alt="Photo">
+                        <figcaption>Более 50 фотографий</figcaption>
+                    </li>
+                    <li><img src="./img/map-pin-marked.svg" alt="Location">
+                        <figcaption>Дубаи</figcaption>
+                    </li>
+                    <li><img src="./img/speech-bubble.svg" alt="Language">
+                        <figcaption>Русский</figcaption>
+                    </li>
                 </ul>
             </div>
             <div class="content__2__photo">
@@ -65,10 +73,11 @@
             </div>
             <div class="raiting__mark">
                 <img class="gr__cup" src="./img/Groupcup.svg" alt="">
+                <img class="stars__bar" src="./img/Group 8.3.svg" alt="">
                 <p class="rait"> Более
                     <span class="fifty">50</span>
                     отзывов с оценкой </p>
-                <img class="stars__bar" src="./img/Group 8.3.svg" alt="">
+                
             </div>
         </div>
         <div class="photo__package">
@@ -179,7 +188,7 @@
         <div class="map__content">
             <div class="map__item">
                 <script type="text/javascript" charset="utf-8" async
-                    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2e35bd4c1060b067dd361fef12d359f83f8eafbd1410382e6771cb5cb2d5b56c&amp;width=100%25&amp;height=510&amp;lang=ru_RU&amp;scroll=true"></script>
+                    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2e35bd4c1060b067dd361fef12d359f83f8eafbd1410382e6771cb5cb2d5b56c&amp;height=510&amp;lang=ru_RU&amp;scroll=true"></script>
             </div>
             <div class="frame__info">
                 <img class="frame__img" src="./img/Rectangle 3.png" alt="">
@@ -190,21 +199,21 @@
                         <img src="./img/elips1.svg" alt="">
                     </div>
                     <div class="itm__2 items">
-                            <p>Время съемки</p>
-                            <p>3 часа</p>
-                            <img src="./img/elips2.svg" alt="">
+                        <p>Время съемки</p>
+                        <p>3 часа</p>
+                        <img src="./img/elips2.svg" alt="">
                     </div>
                     <div class="itm__3 items">
-                            <p>Мест осталось:</p>
-                            <p>2 места</p>
-                            <img src="./img/elips3.svg" alt="">
+                        <p>Мест осталось:</p>
+                        <p>2 места</p>
+                        <img src="./img/elips3.svg" alt="">
                     </div>
                     <div class="itm__4 items">
-                            <p> <span>Мария Иванова</span> <br>
-                             Фотограф</p>
-                            <a href="#"> Показать больше информации</a>
-                          
-                            <img class="ava__img" src="./img/Ellipse-img1.png" alt="">
+                        <p> <span>Мария Иванова</span> <br>
+                            Фотограф</p>
+                        <a href="#"> Показать больше информации</a>
+
+                        <img class="ava__img" src="./img/Ellipse-img1.png" alt="">
                     </div>
                 </div>
             </div>
@@ -212,35 +221,88 @@
         <div class="feed__back">
             <h2>Отзывы:</h2>
             <div class="container">
-                <div class="fst__feedback">
-                    <img src="./img/Ellipse-img2.png" alt="">
-                    <figcaption> Александра Тихонова </figcaption>
-                    <p></p>
+                <div class="fst__feedback ">
+                    <img class="image__1" src="./img/Ellipse-img2.png" alt="">
+                    <div class="info_fb_fst">
+                        <figcaption> Александра Тихонова </figcaption>
+                        <p class="profession__txt">Арт-диретор</p>
+                        <img src="./img/Group 8.1.png" alt="">
+                        <p class="fb__feels">Супер! Я бы заказала сьемку снова!</p>
+
+                    </div>
+                    <p class="text__feedback">Хотим выразить огромную благодарность вашей компании! Не смотря на то что
+                        погода была холодная,
+                        на самом шаре оказалось очень тепло, это безумно порадовало. Виды открываются потрясающие.
+                        Романтика одним словом! </p>
+                    <p class="feed__back__date"> 27 апреля 2019г.</p>
+
                 </div>
-                <div class="scnd__feedback">
-                    <img src="./img/Ellipse-img3.png" alt="">
-                    <figcaption> Григорий Хабаров</figcaption>
+                <div class="scnd__feedback ">
+                    <img class="image__2" src="./img/Ellipse-img3.png" alt="">
+                    <div class="info_fb_scnd">
+                        <figcaption> Григорий Хабаров</figcaption>
+                        <p class="profession__txt">Арт-диретор</p>
+                        <img src="./img/Group 8.1.png" alt="">
+                        <p class="fb__feels">Супер! Я бы заказала сьемку снова!</p>
+                    </div>
+                    <p class="text__feedback">Восторг! :) Очень понравилось :) Захватили последний теплый, солнечный
+                        октябрьский день :)
+                        Впечатлило всё: как надувают шар, подъём, полёт, приземление.
+                        Организация полёта отличная. Спасибо!</p>
+                    <p class="feed__back__date"> 19 апреля 2019г.</p>
                 </div>
-                <div class="thrd__feedback">
-                    <img src="./img/Ellipse-img4.png" alt="">
-                    <figcaption> Михаил Громов </figcaption>
+                <div class="thrd__feedback ">
+                    <img class="image__3" src="./img/Ellipse-img4.png" alt="">
+                    <div class="info_fb_thrd">
+                        <figcaption> Михаил Громов </figcaption>
+                        <p class="profession__txt">Арт-диретор</p>
+                        <img src="./img/Group 8.1.png" alt="">
+                        <p class="fb__feels">Супер! Я бы заказала сьемку снова!</p>
+                    </div>
+                    <p class="text__feedback">Круто-круто-круто!!! Отмечали мой ДэРэ. Отлично провели время!!! Кстати
+                        закуски были вкусными и сытными))Мы
+                        с собой ничего не брали. Сами много фоткались,поэтому воспоминания обалденные!!!)) А еще нам
+                        всем напечатали по сертификату воздухоплавателя, правда некоторые ленятся за ним съездить))) Но
+                        все равно приятно. Короче, Презентстар – проверено. Оценка: пять!</p>
+                    <p class="feed__back__date"> 11 апреля 2019г.</p>
                 </div>
+
+                <img class="show__more" src="./img/Показать еще 134.png" alt="">
+
+            </div>
+        </div>
+        <div class="content__5">
+            <div class="logo">
+                <p>TAKE<span>LOOK</span></p>
+            </div>
+            <div class="social__link">
+                <a href="https://vk.com/"><i class="fab fa-vk"></i></a>
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            </div>
+            <ul class="lang__1">
+                <li><a href="#">RU <img class="img__dropdown" src="./img/Arrow.png" alt=""></a></li>
+                <ul class="sublang">
+                    <li><a href="#">RU</a></li>
+                    <li><a href="#">ENG</a></li>
+                    <li><a href="#">BLR</a></li>
+                </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="footer">
+            <img class="mc__symbl" src="./img/MC.svg" alt="">
+            <p class="visa__smbl"> <i class="fab fa-cc-visa"></i></p>
+            <div class="about">
+                <p>
+                    Тех. поддержка: 8(800)700-00-00 <br>
+                    © 2018 Takelook. All Rights Reserved.
+                </p>
             </div>
         </div>
 
-    </div>
 
 
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
 
 
 </body>
